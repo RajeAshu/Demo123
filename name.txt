@@ -1,4 +1,26 @@
 Hii my name is Jackson 
-hello
-ashuuuuuuu 
-hi rajeshri
+
+Create folder and Create files in the folder structure of system
+
+git init
+git status
+git add .
+git add file name
+git status
+git commit -m "Initial commit"
+git remote add origin Repo_URL
+git remote -v
+git branch -M main
+git status
+git push -u origin main
+git status
+git branch
+
+To delete file:
+git rm filename
+git commit -m "deleted ---- file"
+git push -u origin main
+
+
+To clone repo from github to local system
+git clone Repo_URL
