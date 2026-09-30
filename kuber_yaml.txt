@@ -1,0 +1,30 @@
+1.	In docker, Kubernetes cluster should be in run mode
+
+
+
+
+2.	 Run cmd as administrator
+Commands:
+
+kubectl get nodes
+
+kubectl run alpine-pod –image=alpine
+
+Copy command from th deployment from kuberenetes(docker) and run in cmd:-
+kubectl create deployment my-app image=alpine
+
+kubectl delete deployment my-app
+
+
+
+
+YAML
+
+Create new folder
+Generate AML code via copilot or VSCode agent
+ Copy that code in VS- Filename  example “php-apache.yaml”
+In cmd go to the folder run- 
+Kubectl apply -f php-apache.yaml
+
+
+
