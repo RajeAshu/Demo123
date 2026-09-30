@@ -5,10 +5,10 @@ FROM eclipse-temurin:21-jdk-alpine
 WORKDIR /javaapp
 
 # Copy the Java source file into the container
-COPY HelloWorld.java .
+COPY helloworld.java .
 
 # Compile the Java program
-RUN javac HelloWorld.java
+RUN javac helloworld.java
 
 # Set the default command to run the Java program
-CMD ["java", "HelloWorld"]
+CMD ["java", "helloworld"]
